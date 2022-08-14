@@ -1,0 +1,72 @@
+.foot{
+    /* border: 2px solid darkblue;   */
+    display: flex;
+}
+
+.f2{
+    /* border: 2px solid gold; */
+    margin: 10px;
+    padding: 20px;
+}
+
+.f2 h2{
+    margin-bottom: 10px;
+}
+
+.f2 ul{
+    text-decoration: none;
+}
+
+.fli{
+    list-style: none;
+    line-height: 25px;
+}
+
+.f3{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fleft b{
+    margin: 0 10px 0 12px;
+    margin-bottom: 100px;
+}
+
+.fleft{
+    /* border: 2px solid rgb(0, 0, 0); */
+    justify-content: center;
+    align-items: center;
+    margin-right: 609px;
+    padding: 10px;
+    text-align: center;
+    /* margin: 10px; */
+}
+.fleft img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.fright{
+    /* border: 2px solid violet; */
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fright img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-radius: 50px;
+    /* padding: 20px; */
+    /* margin-right: 190px; */
+    margin-top: 50px;
+    margin-bottom: 10px;
+}

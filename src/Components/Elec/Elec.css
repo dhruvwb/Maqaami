@@ -1,0 +1,31 @@
+.Elec{
+padding: 20px;
+/* border: 2px solid black; */
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.Elec img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.Elec2{
+    /* border: 2px solid firebrick; */
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+}
+
+.Elec3{
+    /* border: 2px solid palegoldenrod; */
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f3f8;
+}

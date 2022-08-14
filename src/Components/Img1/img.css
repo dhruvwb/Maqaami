@@ -1,0 +1,35 @@
+/* 
+.I1{
+    background-color: #FFC000;
+    margin-bottom: 0;
+} */
+
+.I{
+    width: 100%;
+    height: 90%;
+    /* margin-bottom: 15px; */
+    object-fit: contain;
+
+}
+
+.I2{
+    /* border: 2px solid black; */
+    background-color: #FFC000;
+    height: 230px;
+    /* border-bottom: #008bff; */
+}
+.Ih1{
+    background: #008bff; 
+    width: 90%;
+    height: 2px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.Ih2{
+    background: white; 
+    width: 90%;
+    height: 1px;
+    margin-left: 50px;
+    margin-top: 2px;
+}

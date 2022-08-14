@@ -1,0 +1,72 @@
+.car{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    margin-top: -60px;
+    overflow: hidden;
+}
+
+.carArrow_left{
+    width: 50px;
+    height: 50px;background-color: #fff;
+  /* align-items: center; */
+  /* justify-content: center; */
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 2;
+
+}
+
+.carArrow_right{
+    width: 50px;
+   height: 50px;/*background-color: #fff; */
+  /* align-items: center; */
+  /* justify-content: center; */
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.right{
+    margin-right: 100px;
+
+}
+
+.CImg{
+    border-radius: 50%;
+}
+    
+.carim{
+   height: 100%; 
+   display: flex;
+   /* transform: translateX(${(props)=>props.slideIndex * -100}vw); */
+}
+
+.slide{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ImgContainer{
+    flex: 1;
+    height: 80%;   
+}
+
+.styledImage{
+    /* height: 80%; */
+}

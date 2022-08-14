@@ -1,0 +1,75 @@
+.Card1{
+    height: 700px;
+    border-bottom-color: 2px solid darkblue;
+    border-bottom: #382c08;
+}
+
+.card{
+    background-color: #FFC000;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    /* height: 700px; */
+
+}
+
+.card1{
+    background-color: #382c08;
+    flex-direction: row;
+    display: flex;
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+    /* border: 2px solid firebrick; */
+    background-color: white;
+    /* margin-left: 70px; */
+    margin: 5px;
+}
+
+.card2{
+   flex-direction: row;
+   /* height: 100px; */
+   margin: 5px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.card3{
+    /* flex-direction: column; */
+    
+    /* height: 100px   ; */
+    /* margin: 5px; */
+     align-items: center;
+     justify-content: center;
+    /* border: 2px solid darkblue; */
+    line-height: 15px;
+ }
+ 
+
+.card3 img{
+width: 140px;
+height: 140px;
+object-fit: contain;
+margin-left: 55px;
+    /* border: 2px solid chartreuse; */
+    display: flex;
+}   
+
+.cardContent{
+    line-height: 25px;
+    /* bottom: 100px; */
+    padding: 10px;
+
+}
+.cardContent p{
+   font-weight: 
+   350;
+
+}
+

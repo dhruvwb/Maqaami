@@ -1,0 +1,21 @@
+.Uae{
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+    right: 10px;
+
+}
+
+.U2 h2{
+    margin-bottom: 10px;
+}
+
+.U2{
+    background-color: #f2f3f8;
+    width: 98%;
+    margin-left: 15px;
+    flex: start;
+    height: 300px;
+
+}
+

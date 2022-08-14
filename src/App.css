@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.CC{
+  flex-direction: row;
+}
+
+.Header{
+  position: sticky;
+}
