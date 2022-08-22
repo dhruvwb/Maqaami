@@ -1,0 +1,229 @@
+.ProductMain{
+    /* border: 2px solid rebeccapurple; */
+    background-color: #f2f3f8;
+    padding: 10px;
+}
+
+.ProductSec{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #fff;
+}
+
+.LeftProdt{
+    flex: 0.8;
+    display: flex;
+    justify-content: space-between;
+}
+.lProdtsm{
+    /* border: 2px solid rebeccapurple; */
+    margin: 8px;   
+    display: flex;
+    flex-direction: column  ;
+}
+
+.lProdtsm img{
+    border: 2px solid #f2f3f8;
+    height: 100px;
+    width: 50px;
+    object-fit: contain;
+    margin: 5px ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.lProdtlg{
+    /* border: 2px solid rebeccapurple; */
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.lProdtlg img{
+    /* border: 2px solid rebeccapurple; */
+    height: 390px;
+    width: 390px;
+    object-fit: contain;
+
+}
+
+.RightPrdt{
+    flex: 1;
+    /* border: 2px solid teal; */
+    display: flex;
+    margin-top: 20px;
+}
+
+.RightProdtLeft{
+    /* border: 2px solid darkblue; */
+    flex: 1;
+    margin: 6px;
+    font-size: 1.480rem;
+    font-weight: 450;
+    margin-bottom: .5rem;
+    margin-right: 20px
+}
+
+
+.RightProdtRight{
+    /* border: 2px soild gold; */
+    flex: 1;
+}
+
+.Was{
+    /* border: 1px solid green; */
+}
+
+.Was small{
+    font-size: 13px;
+    /* margin-left: 4px; */
+}
+
+.Was del{
+    font-weight: 550;
+    margin-left: 10px;
+}
+
+.Now{
+    margin-top: 5px;
+    /* border: 2px solid firebrick; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+}
+
+.Now small{
+    /* margin: 5px; */
+    font-size: 13px;
+
+}
+
+.Now b{ 
+    /* margin: 5px; */
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.Saving{
+    /* border: 2px solid black; */
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.Saving b{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.Saving span{
+    color: #38AE04;
+}
+
+.DeliveredBy{
+    background-color: rgb(227 242 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.DeliveredBy b{
+    margin-left: 4px;
+
+}
+.DeliveredBy small{
+    font-size: 13px;
+    font-weight: 500;
+    color: #404553;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 30px;
+}
+
+.Share{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.Share img{
+    width: 35px;
+    height: 35px;
+    margin-left: 14px;
+}
+
+.RightProdtRight{
+    /* border: 2px solid gold; */
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.Sold{
+    /* border: 2px solid rebeccapurple; */
+    width: max-content;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 0; */
+    font-size: 15px;
+    font-weight: 490;
+    color: #404553;
+
+}
+.Sold img{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.Soldhr{
+    /* margin-bottom: 500px; */
+    margin-top: 10px;
+}
+
+.Customer{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    /* border: 2px solid firebrick; */
+    height: 25px;
+}
+
+.Advan{
+    /* border: 2px solid royalblue; */
+    display: flex;
+    margin: 4px 0;
+}
+
+.AdvanText{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.AddToCart{
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    width: 100%;
+    background-color: #008bff;
+    color: white;
+    font-weight: 600;
+}

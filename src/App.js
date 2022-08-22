@@ -8,6 +8,9 @@ import Elec from "./Components/Elec/Elec";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Img from "./Components/Img1/Img";
+import Login from "./Components/Login/Login";
+import { Heading } from "./Components/ProductPage/Heading/Heading";
+import SingleProduct from "./Components/SingleProduct/ProductInfo/SingleProduct";
 import Uae from "./Components/Uae/Uae";
 
 function App() {
@@ -15,13 +18,17 @@ function App() {
     <div className="App">
       <Header className="Header" />
       <Cat />
-      <Car />
-      {/* <Img /> */}
+      {/* <Car /> */}
+      {/* <Img />
       <Card className="CC" />
       <Elec />
       <Deal />
       <Uae />
-      <Ad />
+      <Ad /> */}
+      <Heading />
+      {/* <SingleProduct /> */}
+      {/* This is the Product page */}
+      {/* <Login /> */}
       <Footer />
     </div>
   );

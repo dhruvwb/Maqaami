@@ -1,0 +1,27 @@
+.Categdiv{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Catdiv{
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid red; */
+    padding: 15px;
+    width: 250px;
+    line-height: 20px;
+}
+
+.Catdiv img{
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+}
+
+.Catdiv span{
+    font-size: 13px;
+    font-weight: 490;
+}

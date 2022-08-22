@@ -1,0 +1,66 @@
+.Topsell{
+    margin-bottom: 40px;    
+    padding: 10px;
+    background-color: #fff;
+    /* border: 2px solid firebrick; */
+   position: relative;
+}
+.Topsellb{
+    margin: 15px;
+
+
+}
+.Tophr{
+    margin-top: 30px;
+    opacity: 0.7;
+}
+
+.Tophrsec{
+    margin-bottom: 30px;
+    opacity: 0.7;
+
+}
+
+.Circle span{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.TopCard{
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+    margin-left: 10px;
+}
+.CardTop :hover{
+    border: 2px solid #f2f3f8;
+}
+
+.TopCardProduct{
+    /* border: 2px solid rebeccapurple; */
+    cursor: pointer;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    width:  210px;
+    height: 300px;
+}
+
+.TopCardProduct img{
+    width: 210px;
+    height: 200px;
+    object-fit: contain;
+    /* border: 2px solid royalblue; */
+    /* background-position: center center; */
+    /* overflow: hidden; */
+    /* background-repeat: no-repeat; */
+}
